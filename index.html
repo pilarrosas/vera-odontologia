@@ -4,54 +4,124 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./Imagenes/favicon.png">
+    <link rel="shortcut icon" href="../SITIO/Imagenes/favicon.png">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="./Estilos/styles.css">
     <link rel="stylesheet" href="./albra-regular.otf">
-    <title>Vera | Odonotologia</title>
+    <title>Vera | Odontología</title>
 </head>
-<body background="./Imagenes/background.png">
-    <header>
-        <a href="./index.html">
-            <img src="./Imagenes/LogoHeader.png" class="animacion"> 
-        </a>
-         <nav>
-            <ul>
-                <li>
-                    <a href="./index.html" class="transition">Inicio</a>
-                </li>
-                <li>
-                    <a href="./ortodoncias.html" class="transition">Ortodoncias</a>
-                </li>
-                <li>
-                    <a href="./ortopedia.html" class="transition">Ortopedia</a>
-                </li>
-                <li>
-                    <a href="./estetica.html" class="transition">Estética</a>
-                </li>
-                <li>
-                    <a href="./galeria.html" class="transition">Galería</a>
-                </li>
-                <li>
-                    <a href="./contacto.html" class="transition">Contacto</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-<main>
-    <img src="./Imagenes/imagen4.png">
-</main>
-<footer>
-    <img class="Imagen-footer" src="./Imagenes/logofooter.png">
-    
-        <p>| Vera Odonotologia |</p>
-        <p>Dirección | San Martín 2049</p>
-        <p>C.P | 3400 | Corrientes</p>
-        </br>
-        <section>
-         <p>Copyrigth © | Pilar Rosas | 2022</p>
+<body class="container-fluid">
+  <nav class="navbar navbar-expand-lg bg-#e2dddd border-1 border-bottom border-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html"><img src="./Imagenes/LogoHeader.png" width="80px" height="80px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="Menu">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item ">
+                <a class="nav-link" href="./index.html">Inicio</a>
+              </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./ortodoncias.html">Ortodoncias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./ortopedia.html">Ortopedia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./estetica.html">Estética</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./galeria.html">Galería</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>           <main>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+               <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button> 
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./Imagenes/SLIDER1.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Odontología Infantil</h5>
+                    <p>Restauraciónes | Ortodoncias | Extracciónes | Prevención</p>
+                    <a href="./contacto.html"><button type="button" class="botones">Contacto</button></a>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./Imagenes/SLIDER2.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Tratamientos Generales</h5>
+                    <p>Limpieza | Blanqueamiento | Implantes</p>
+                    <a href="./contacto.html"><button type="button" class="botones">Contacto</button></a>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./Imagenes/SLIDER3.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="color">Ortodoncias</h5>
+                    <p class="color">Tratamiento completo de Ortodoncias para todas las edades</p>
+                    <a href="./contacto.html"><button type="button" class="botones">Contacto</button></a>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./Imagenes/SLIDER5.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="color">Urgencias Odontológicas</h5>
+                    <a href="./contacto.html"><button type="button" class="botones">Contacto</button></a>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./Imagenes/SLIDER4.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Tratamientos Estéticos</h5>
+                    <p>Limpieza | Blanqueamiento | Implantes</p>
+                    <a href="./contacto.html"><button type="button" class="botones">Contacto</button></a>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+           </main>
+           <footer>
+          <nav class="nav justify-content-center">
+            <img src="./Imagenes/logofooter.png" width="50px" height="50px">
+          </nav>
+            <p class="nav justify-content-center">| Vera Odonotologia |</p>
+            <p class="nav justify-content-center">Dirección | San Martín 2049</p>
+            <p class="nav justify-content-center">C.P | 3400 | Corrientes</p>
+            <div class="nav justify-content-center">
+              <a href="#"><img src="./Imagenes/FB.svg" width="20px" height="20px" alt="facebook"></a>
+              <a href="#"><img src="./Imagenes/IG.svg" width="20px" height="20px" alt="Instagram"></a>
+              <a href="#"><img src="./Imagenes/WH.svg" width="20px" height="20px" alt="Whatsapp"></a>
+            </div>
+          </br>
+            <section>
+             <p class="nav justify-content-center">Copyrigth © | Pilar Rosas | 2022</p>
+            </section>
+          </footer>
         </section>
+    </section>
 
-</footer>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
