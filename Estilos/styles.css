@@ -38,6 +38,11 @@ main nav p {
     color: #000000;
 }
 
+.est {
+    font-family: albra;
+    color: #e2dddd;
+}
+
 footer {
     background-color: #e2dddd;
     border-radius: 10px;
