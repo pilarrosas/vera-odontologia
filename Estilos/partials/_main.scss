@@ -1,0 +1,38 @@
+main h5 {
+    font-family: $fuenteUnica;
+}
+
+.color {
+   color: $colorSecundario;
+}
+
+.botones {
+    border-radius: 5px;
+    font-family: $fuenteUnica;
+    background-color: $colorPrincipal;
+    &:hover {
+        background-color: $colorSecundario;
+        color: #e2dddd;
+    }
+}
+
+.bloque {
+    font-family: $fuenteUnica;
+    font-size: 30px;
+    font-weight:bold;
+}
+
+.form-label {
+    font-family: $fuenteUnica;
+}
+
+.form-check-label {
+    font-family: $fuenteUnica;
+    font-weight: bold;
+}
+
+
+.est {
+    font-family: $fuenteUnica;
+    color:$colorPrincipald;
+}

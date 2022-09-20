@@ -1,0 +1,12 @@
+body {
+    background-color: $colorPrincipal;
+}
+
+.nav-link {
+    font-family: $fuenteUnica;
+    color: $colorSecundario;
+    &:hover {
+        color: $colorHover;
+        transition: all 0.5s;
+    }
+}

@@ -1,0 +1,20 @@
+h6 {
+    font-family: $fuenteUnica;
+    color: $colorSecundario;
+}
+
+.redes {
+    font-family: $fuenteUnica;
+    color:$colorSecundario;
+    .text-reset {
+        text-decoration: none;
+    }
+    &:hover {
+        color: $colorHover;
+    }
+}
+
+.datos {
+    font-family: $fuenteUnica;
+    color: $colorSecundario;
+}

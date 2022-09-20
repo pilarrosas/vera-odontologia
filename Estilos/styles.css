@@ -1,61 +1,71 @@
 body {
-    background-color: #e2dddd;
+  background-color: #e2dddd;
 }
 
 .nav-link {
-    font-family: albra;
-    color: #000000;
+  font-family: albra;
+  color: #000000;
 }
-
 .nav-link:hover {
-    color: #ffffff;
-    transition: all 0.5s;
+  color: #ffffff;
+  transition: all 0.5s;
 }
 
 main h5 {
-    font-family: albra;
+  font-family: albra;
 }
 
 .color {
-   color: #000000;
+  color: #000000;
 }
 
 .botones {
-    border-radius: 5px;
-    font-family: albra;
-    background-color: #e2dddd
+  border-radius: 5px;
+  font-family: albra;
+  background-color: #e2dddd;
 }
-
 .botones:hover {
-    background-color: #000000;
-    color: #e2dddd;
+  background-color: #000000;
+  color: #e2dddd;
 }
 
-main nav p {
-    display: flex;
-    font-family: albra;
-    font-size: 25px;
-    color: #000000;
+.bloque {
+  font-family: albra;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.form-label {
+  font-family: albra;
+}
+
+.form-check-label {
+  font-family: albra;
+  font-weight: bold;
 }
 
 .est {
-    font-family: albra;
-    color: #e2dddd;
+  font-family: albra;
+  color: #e2dddd;
 }
 
-footer {
-    background-color: #e2dddd;
-    border-radius: 10px;
+h6 {
+  font-family: albra;
+  color: #000000;
 }
 
-footer p {
-    font-family: albra;
+.redes {
+  font-family: albra;
+  color: #000000;
+}
+.redes .text-reset {
+  text-decoration: none;
+}
+.redes:hover {
+  color: #ffffff;
 }
 
-footer section p {
-    border-radius: 10px;
-    background-color: #000000;
-    color: #ffffff;
-}
-
-
+.datos {
+  font-family: albra;
+  color: #000000;
+}/*# sourceMappingURL=styles.css.map */
