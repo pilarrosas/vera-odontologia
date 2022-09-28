@@ -1,0 +1,10 @@
+@mixin botones ($backColor, $backColorSec) {
+    border-radius: 5px;
+    font-family: map-get($tipografias, fuenteUnica);
+    background-color: $backColor;
+    &:hover {
+        background-color: $backColorSec;
+        color: $backColor;
+    }
+
+}

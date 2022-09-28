@@ -1,12 +1,12 @@
 body {
-    background-color: $colorPrincipal;
+    background-color: map-get($colores , colorPrincipal);
 }
 
 .nav-link {
-    font-family: $fuenteUnica;
-    color: $colorSecundario;
+    font-family: map-get($tipografias, fuenteUnica);
+    color: map-get($colores , colorSecundario);
     &:hover {
-        color: $colorHover;
+        color: map-get($colores , colorHover);
         transition: all 0.5s;
     }
 }

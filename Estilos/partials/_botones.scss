@@ -1,0 +1,11 @@
+.botones {
+     @include botones($backColor: #e2dddd, $backColorSec:#000000)
+}
+
+.form-check-label {
+     @extend %checkFormulario;
+}
+
+.nav-link {
+    @extend %botonesBarraNavegacion;
+}

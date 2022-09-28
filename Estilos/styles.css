@@ -1,3 +1,17 @@
+.form-check-label {
+  font-family: albra;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-family: albra;
+  color: #000000;
+}
+.nav-link:hover {
+  color: #ffffff;
+  transition: all 0.5s;
+}
+
 body {
   background-color: #e2dddd;
 }
@@ -68,4 +82,14 @@ h6 {
 .datos {
   font-family: albra;
   color: #000000;
+}
+
+.botones {
+  border-radius: 5px;
+  font-family: albra;
+  background-color: #e2dddd;
+}
+.botones:hover {
+  background-color: #000000;
+  color: #e2dddd;
 }/*# sourceMappingURL=styles.css.map */

@@ -1,12 +1,4 @@
-main h5 {
-    font-family: map-get($tipografias, fuenteUnica);
-}
-
-.color {
-   color: map-get($colores , colorSecundario);
-}
-
-.botones {
+%botonesDePagina {
     border-radius: 5px;
     font-family: map-get($tipografias, fuenteUnica);
     background-color: map-get($colores , colorPrincipal);
@@ -16,23 +8,16 @@ main h5 {
     }
 }
 
-.bloque {
-    font-family: map-get($tipografias, fuenteUnica);
-    font-size: 30px;
-    font-weight:bold;
-}
-
-.form-label {
-    font-family: map-get($tipografias, fuenteUnica);
-}
-
-.form-check-label {
+%checkFormulario {
     font-family: map-get($tipografias, fuenteUnica);
     font-weight: bold;
 }
 
-
-.est {
+%botonesBarraNavegacion {
     font-family: map-get($tipografias, fuenteUnica);
-    color: map-get($colores , colorPrincipal)
+    color: map-get($colores , colorSecundario);
+    &:hover {
+        color: map-get($colores , colorHover);
+        transition: all 0.5s;
+    }
 }
