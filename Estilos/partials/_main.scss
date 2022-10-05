@@ -1,38 +1,38 @@
 main h5 {
-    font-family: map-get($tipografias, fuenteUnica);
+    font-family: $fuenteUnica;
 }
 
 .color {
-   color: map-get($colores , colorSecundario);
+   color: $colorSecundario;
 }
 
 .botones {
     border-radius: 5px;
-    font-family: map-get($tipografias, fuenteUnica);
-    background-color: map-get($colores , colorPrincipal);
+    font-family: $fuenteUnica;
+    background-color: $colorPrincipal;
     &:hover {
-        background-color: map-get($colores , colorSecundario);
-        color: map-get($colores , colorPrincipal);
+        background-color: $colorSecundario;
+        color: #e2dddd;
     }
 }
 
 .bloque {
-    font-family: map-get($tipografias, fuenteUnica);
+    font-family: $fuenteUnica;
     font-size: 30px;
     font-weight:bold;
 }
 
 .form-label {
-    font-family: map-get($tipografias, fuenteUnica);
+    font-family: $fuenteUnica;
 }
 
 .form-check-label {
-    font-family: map-get($tipografias, fuenteUnica);
+    font-family: $fuenteUnica;
     font-weight: bold;
 }
 
 
 .est {
-    font-family: map-get($tipografias, fuenteUnica);
-    color: map-get($colores , colorPrincipal)
+    font-family: $fuenteUnica;
+    color:$colorPrincipald;
 }

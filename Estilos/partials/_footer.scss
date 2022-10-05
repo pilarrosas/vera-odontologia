@@ -1,20 +1,20 @@
 h6 {
-    font-family: map-get($tipografias, fuenteUnica);
-    color: map-get($colores , colorSecundario)
+    font-family: $fuenteUnica;
+    color: $colorSecundario;
 }
 
 .redes {
-    font-family: map-get($tipografias, fuenteUnica);
-    color:map-get($colores , colorSecundario);
+    font-family: $fuenteUnica;
+    color:$colorSecundario;
     .text-reset {
         text-decoration: none;
     }
     &:hover {
-        color: map-get($colores , colorHover)
+        color: $colorHover;
     }
 }
 
 .datos {
-    font-family: map-get($tipografias, fuenteUnica);
-    color: map-get($colores , colorSecundario)
+    font-family: $fuenteUnica;
+    color: $colorSecundario;
 }
