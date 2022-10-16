@@ -13,9 +13,9 @@
     <link rel="stylesheet" href="./albra-regular.otf">
     <title>Contacto | Vera</title>
 </head>
-<body class="container-fluid">
-  <nav class="navbar navbar-expand-md border-1 border-bottom border-light">
-    <div class="container-fluid">
+<body class="container" id="#cuerpo">
+  <nav class="navbar navbar-expand-md text-center border-1 border-bottom border-light">
+    <div class="container">
       <a href="./index.html"><img src="./Imagenes/LogoHeader.png" width="175px" height="80px"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-down" viewBox="0 0 16 16">
@@ -46,202 +46,199 @@
         </ul>
       </div>
     </div>
-  </nav>  
-           <main>
-          </br>
-          <nav class="bloque">
-          <p class="nav justify-content-center">Formulario de Contacto</p>
-          </nav>
-        </br>
-              <form class="row g-3 nav justify-content-center">
-                  <div class="col-md-6">
-                    <label for="validationDefault01" class="form-label">Nombre</label>
-                    <input type="text" class="form-control" id="validationDefault01">
-                  </div>
-                  <div class="col-md-6">
-                    <label for="validationDefault02" class="form-label">Apellido</label>
-                    <input type="text" class="form-control" id="validationDefault02" >
-                  </div>
-                  <div class="col-md-6">
-                    <label for="validationDefaultUsername" class="form-label">Edad</label>
-                    <div class="input-group">
-                      <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                      <label for="validationDefault01" class="form-label">Mail</label>
-                      <input type="text" class="form-control" id="validationDefault01">
-                    </div>
-                  <div class="col-md-4">
-                      <label for="validationDefault04" class="form-label">Tratamiento</label>
-                      <select class="form-select" id="validationDefault04" required>
-                        <option selected disabled value=""></option>
-                        <option>Ortodoncias</option>
-                        <option>Ortopedia</option>
-                        <option>Estética</option>
-                        <option>Tratamiento Infantil</option>
-                      </select>
-                    </div>
-                  <div class="col-md-4">
-                    <label for="validationDefault04" class="form-label">Día</label>
-                    <select class="form-select" id="validationDefault04" required>
-                      <option selected disabled value=""></option>
-                      <option>Lunes</option>
-                      <option>Martes</option>
-                      <option>Miércoles</option>
-                      <option>Jueves</option>
-                      <option>Viernes</option>
-                    </select>
-                  </div>
-                  <div class="col-md-4">
-                      <label for="validationDefault04" class="form-label">Horario</label>
-                      <select class="form-select" id="validationDefault04" required>
-                        <option selected disabled value=""></option>
-                        <option><option>08:00</option>
-                        <option>08:30</option>
-                        <option>09:00</option>
-                        <option>09:30</option>
-                        <option>10:00</option>
-                        <option>10:30</option>
-                        <option>11:00</option>
-                        <option>11:30</option>
-                        <option>17:00</option>
-                        <option>17:30</option>
-                        <option>18:00</option>
-                        <option>18:30</option>
-                        <option>19:00</option>
-                        <option>19:30</option>
-                        <option>20:00</option>
-                      </select>
-                    </div>
-                    <div class="mb-3">
-                      <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
-                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                      </div>
-                  </br>
-                      <div class="form-check nav justify-content-center">
-                          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                          <label class="form-check-label" for="flexRadioDefault1">
-                            Acepto los Términos y Condiciónes
-                          </label>
-                        </div>
-                  <div class="col-12 nav justify-content-center">
-                    <button class="botones" type="submit">Enviar</button>
-                  </div>
-                </form>
-              </main>
-          </br>
-          <footer class="text-center text-lg-start bg-light">
-            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-              <div class="me-5 d-none d-lg-block">
-                <span>Seguínos en Nuestras Redes Sociales:</span>
+  </nav>
+  <main class="container">
+    <h4 class="text-center p-5">Formulario de Contacto</h4>
+        <form class="row g-3 nav justify-content-center p-3">
+            <div class="col-md-6">
+              <label for="validationDefault01" class="form-label">Nombre</label>
+              <input type="text" class="form-control border-1 border-dark" id="validationDefault01">
+            </div>
+            <div class="col-md-6">
+              <label for="validationDefault02" class="form-label">Apellido</label>
+              <input type="text" class="form-control border-1 border-dark" id="validationDefault02" >
+            </div>
+            <div class="col-md-6">
+              <label for="validationDefaultUsername" class="form-label">Edad</label>
+              <div class="input-group">
+                <input type="text" class="form-control border-1 border-dark" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
               </div>
-              <div>
-                <a href="#" class="me-4 text-reset">
-                  <img src="./Imagenes/facebook.png" width="30px" height="30px">
-                  <i class="fab fa-facebook"></i>
-                </a>
-                <a href="#" class="me-4 text-reset">
-                    <img src="./Imagenes/instagram.png" width="30px" height="30px">
-                  <i class="fab fa-instagram"></i>
-                </a>
-                <a href="#" class="me-4 text-reset">
-                    <img src="./Imagenes/linkedin.png" width="30px" height="30px">
-                  <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="#" class="me-4 text-reset">
-                    <img src=".//Imagenes/whatsapp.png" width="30px" height="30px">
-                  <i class="fab fa-whatsapp"></i>
-                </a>
+            </div>
+            <div class="col-md-6">
+                <label for="validationDefault01" class="form-label">Mail</label>
+                <input type="text" class="form-control border-1 border-dark" id="validationDefault01">
               </div>
-            </section>
-            <section class="container-fluid border-bottom">
-              <div class="container text-center text-md-start mt-5">
-                <div class="row mt-3">
-                  <div class="text-center col-md-2 col-lg-2 col-xl-2 mx-auto p-1">
-                    <img src="./Imagenes/logofooter.png" width="200px" height="85px">
-                  </div>
-                  <div class="container text-center text-md-start mt-5">
-                    <div class="row mt-3">
-                        <div class="col-lg-4 text-fluid col-md-12 mb-4 mb-md-0">
-                            <h5 class="parrafoUno">Vera Odontología</h5>
-                            <p><a class="link-footer" href="./contacto.html">Pedí un turno online</a> rellenando nuestro formulario de contacto y un especialista se pondrá en contacto en menos de 24 Hs. </p>
-                          </div>
-                  <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-md-0 mb-4">
-                    <h5 class="text-center mb-4">Contacto</h5>
-                    <p class="text-center">San Martín 2049</p>
-                    <p class="text-center">Corrientes | Argentina</p>
-                    <p class="text-center">CP: 3.400</p>
-                    <p class="text-center">recepcion@veraodontologia.com</p>
-                  </div>
-                  <div class="col-md-3 col-lg-4 col-xl-2 mx-auto mb-4">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3539.9478394560156!2d-58.8250157!3d-27.470883199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94456b6099649c0f%3A0xd46100d4580bc5da!2sSan%20Mart%C3%ADn%202049%2C%20W3400AQR%20Corrientes!5e0!3m2!1ses!2sar!4v1664374358939!5m2!1ses!2sar" width="325px" height="200px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                  </div>
+            <div class="col-md-4">
+                <label for="validationDefault04" class="form-label">Tratamiento</label>
+                <select class="form-select border-1 border-dark" id="validationDefault04" required>
+                  <option selected disabled value=""></option>
+                  <option>Ortodoncias</option>
+                  <option>Ortopedia</option>
+                  <option>Estética</option>
+                  <option>Tratamiento Infantil</option>
+                </select>
+              </div>
+            <div class="col-md-4">
+              <label for="validationDefault04" class="form-label">Día</label>
+              <select class="form-select border-1 border-dark" id="validationDefault04" required>
+                <option selected disabled value=""></option>
+                <option>Lunes</option>
+                <option>Martes</option>
+                <option>Miércoles</option>
+                <option>Jueves</option>
+                <option>Viernes</option>
+              </select>
+            </div>
+            <div class="col-md-4">
+                <label for="validationDefault04" class="form-label">Horario</label>
+                <select class="form-select border-1 border-dark" id="validationDefault04" required>
+                  <option selected disabled value=""></option>
+                  <option><option>08:00</option>
+                  <option>08:30</option>
+                  <option>09:00</option>
+                  <option>09:30</option>
+                  <option>10:00</option>
+                  <option>10:30</option>
+                  <option>11:00</option>
+                  <option>11:30</option>
+                  <option>17:00</option>
+                  <option>17:30</option>
+                  <option>18:00</option>
+                  <option>18:30</option>
+                  <option>19:00</option>
+                  <option>19:30</option>
+                  <option>20:00</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
+                <textarea class="form-control border-1 border-dark" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
-              </div>
-            </section>
-         <div class="accordion accordion-flush" id="accordionFlushExample">
-           <div class="accordion-item container-fluid bg-transparent">
-             <h2 class="accordion-header" id="flush-headingOne">
-               <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                 <p class="col-lg-12 col-md-12 mb-12 text-center">Métodos de Pago</p>
-               </button>
-             </h2>
-             <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-               <div class="container-fluid">
-                 <div class="container-fluid p-4">
-                   <section class="Pagos">
-                     <div class="row">
-                       <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
-                         <div class="bg-image hover-overlay ripple shadow-1-strong rounded">
-                           <img src="./Imagenes/MAESTRO.png" class="w-100"/>
-                           </a>
-                         </div>
-                       </div>
-                       <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
-                         <div class="bg-image hover-overlay ripple shadow-1-strong rounded">
-                           <img src="./Imagenes/VISA.png" class="w-100"/>
-                           </div>
-                       </div>
-                       <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
-                         <div class="bg-image hover-overlay ripple shadow-1-strong rounded">
-                           <img src="./Imagenes/AMEX.png" class="w-100"/>
-                           </div>
-                       </div>
-                       <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
-                        <div class="bg-image hover-overlay ripple shadow-1-strong rounded">
-                          <img src="./Imagenes/MASTER.png" class="w-100"/>
-                          </div>
+                <div class="form-check nav justify-content-center">
+                  <input class="form-check-input" type="checkbox" value="form-check" id="#terminos">
+                  <label class="form-check-label" for="#terminos">Enviar Formulario</label>
+                </div>
+            <div class="col-12 nav justify-content-center">
+              <button class="botonForm" type="submit">Enviar</button>
+            </div>
+          </form>
+        </main>
+        <footer class="container text-center text-lg-start">
+          <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom border-dark">
+            <div class="me-5 d-none d-lg-block">
+              <span class="redesSociales">Seguínos en Nuestras Redes Sociales:</span>
+            </div>
+            <div>
+              <a href="https://www.facebook.com/profile.php?id=100086163047626" class="me-4 text-reset">
+                <img src="./Imagenes/facebook.png" width="30px" height="30px">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a href="https://instagram.com/vera.esteticadental?igshid=YmMyMTA2M2Y=" class="me-4 text-reset">
+                  <img src="./Imagenes/instagram.png" width="30px" height="30px">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" class="me-4 text-reset">
+                  <img src="./Imagenes/linkedin.png" width="30px" height="30px">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="https://wa.link/lp9svy" class="me-4 text-reset">
+                  <img src=".//Imagenes/whatsapp.png" width="30px" height="30px">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </section>
+          <section class="container border-bottom border-dark">
+                <div class="text-center col-md-2 col-lg-2 col-xl-2 mx-auto p-1">
+                  <img class="fotoFooter" src="./Imagenes/logofooter.png" width="200px" height="85px">
+                </div>
+              </section>
+              <section class="container">
+                  <div class="row">
+                    <div class="mt-4 col-12 col-md-12 text-center col-lg-4">
+                      <div>
+                        <h5>Vera Odontología</h5>
+                        <p class="mb-30 footer-desc"><a class="link-footer" href="./contacto.html">Pedí un turno online</a> rellenando nuestro formulario de contacto y un especialista se pondrá en contacto en menos de 24 Hs.</p>
                       </div>
-                      <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
-                        <div class="bg-image hover-overlay ripple shadow-1-strong rounded">
-                          <img src="./Imagenes/MERCADO.png" class="w-100"/>
-                          </div>
+                    </div>
+                    <div class="mt-4 col-12 col-md-12 text-center col-lg-4">
+                      <div class="text-center">
+                        <h5>Contacto</h5>
+                        <p class="infoC">San Martín 2049</p>
+                        <p class="infoC">Corrientes | Argentina</p>
+                        <p class="infoC">CP: 3.400</p>
+                        <p class="infoC">recepcion@veraodontologia.com</p>
                       </div>
-                      <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
-                        <div class="bg-image hover-overlay ripple shadow-1-strong rounded">
-                          <img src="./Imagenes/NARANJA.png" class="w-100"/>
-                          </div>
+                    </div>
+                    <div class="mt-4 col-12 col-md-12 text-center col-lg-4">
+                      <div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3539.9478394560156!2d-58.8250157!3d-27.470883199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94456b6099649c0f%3A0xd46100d4580bc5da!2sSan%20Mart%C3%ADn%202049%2C%20W3400AQR%20Corrientes!5e0!3m2!1ses!2sar!4v1664374358939!5m2!1ses!2sar" width="325px" height="200px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                       </div>
-                         </div>
+                    </div>
+                  </div>
+          </section>
+        <div class="accordion accordion-flush container-fluid" id="accordionFlushExample">
+         <div class="accordion-item container-fluid bg-transparent">
+           <h2 class="accordion-header" id="flush-headingOne">
+             <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+               <p class="col-lg-12 col-md-12 mb-12 text-center text-black">Métodos de Pago</p>
+             </button>
+           </h2>
+           <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+             <div class="container">
+               <div class="container p-4">
+                 <section class="Pagos">
+                   <div class="row">
+                     <div class="col-lg-2 col-md-2 mb-4 mb-md-0">
+                       <div class="bg-image hover-overlay ripple shadow-1-strong rounded">
+                         <img src="./Imagenes/MAESTRO.png" class="w-100"/>
+                         </a>
                        </div>
                      </div>
-                  </footer>
-                    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-                      © Pilar Rosas | 2022
-                      <a class="btn btn-floating mb-2" role="button">
-                        <img src="./Imagenes/WAP.png" width="20px" height="20px">
-                        <i class="fab fa-whatsapp"></i>
-                      </a>
-                      <a class="btn btn-floating mb-2" role="button">
-                        <img src="./Imagenes/WEB.png" width="20px" height="20px">
-                        <i class="fab fa-web"></i>
-                      </a>
-                      <a class="btn btn-floating mb-1" role="button">
-                        <img src="./Imagenes/LINK.png" width="22px" height="22px">
-                        <i class="fab fa-linkedin"></i>
-                      </a>
+                     <div class="col-lg-2 col-md-2 mb-4 mb-md-0">
+                       <div class="bg-image hover-overlay ripple shadow-1-strong rounded">
+                         <img src="./Imagenes/VISA.png" class="w-100"/>
+                         </div>
+                     </div>
+                     <div class="col-lg-2 col-md-2 mb-4 mb-md-0">
+                       <div class="bg-image hover-overlay ripple shadow-1-strong rounded">
+                         <img src="./Imagenes/AMEX.png" class="w-100"/>
+                         </div>
+                     </div>
+                     <div class="col-lg-2 col-md-2 mb-4 mb-md-0">
+                      <div class="bg-image hover-overlay ripple shadow-1-strong rounded">
+                        <img src="./Imagenes/MASTER.png" class="w-100"/>
+                        </div>
                     </div>
+                    <div class="col-lg-2 col-md-2 mb-4 mb-md-0">
+                      <div class="bg-image hover-overlay ripple shadow-1-strong rounded">
+                        <img src="./Imagenes/MERCADO.png" class="w-100"/>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 mb-4 mb-md-0">
+                      <div class="bg-image hover-overlay ripple shadow-1-strong rounded">
+                        <img src="./Imagenes/NARANJA.png" class="w-100"/>
+                        </div>
+                    </div>
+                       </div>
+                     </div>
+                   </div>
+                </footer>
+                <div class="container text-center p-4">
+                  © Pilar Rosas | 2022
+                  <a href="https://wa.link/5h4bt1" class="btn btn-floating mb-2" role="button">
+                    <img src="./Imagenes/WAP.png" width="20px" height="20px">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+                  <a href="https://github.com/pilarrosas" class="btn btn-floating mb-2" role="button">
+                    <img src="./Imagenes/GIT.png" width="22px" height="22px">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/pilarmktypublicidad/" class="btn btn-floating mb-2" role="button">
+                    <img src="./Imagenes/LINK.png" width="21px" height="22px">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </div>
+        
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>

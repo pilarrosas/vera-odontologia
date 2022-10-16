@@ -1,38 +1,38 @@
-main h5 {
-    font-family: $fuenteUnica;
-}
-
-.color {
-   color: $colorSecundario;
-}
-
-.botones {
-    border-radius: 5px;
-    font-family: $fuenteUnica;
-    background-color: $colorPrincipal;
-    &:hover {
-        background-color: $colorSecundario;
-        color: #e2dddd;
+main {
+    background-color: $colorMain;
+    p {
+      font-family: $fuenteGeneral;
+      color: $colorToggler;
     }
-}
-
-.bloque {
-    font-family: $fuenteUnica;
-    font-size: 30px;
-    font-weight:bold;
-}
-
-.form-label {
-    font-family: $fuenteUnica;
-}
-
-.form-check-label {
-    font-family: $fuenteUnica;
-    font-weight: bold;
-}
-
-
-.est {
-    font-family: $fuenteUnica;
-    color:$colorPrincipald;
-}
+  }
+  
+  
+  h2 {
+    font-family: $fuenteGeneral;
+    color: $colorToggler;
+    font-weight: $fuenteClase;
+  }
+  
+  .card-title.text-center {
+    font-family: $fuenteGeneral;
+    color: $colorToggler;
+    font-weight: $fuenteClase;
+  }
+  
+  .rounded.float-start {
+    width: 420px;
+    height: 300px;
+  }
+  
+  .rounded.float-end {
+    width: 420px;
+    height: 300px;
+  }
+  
+  .card-img-top.m-auto:hover {
+  transform: scale(1.3);
+  }
+  
+  .container.text-center.text-lg-start {
+    background-color: $headerBackground;
+  }

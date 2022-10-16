@@ -1,12 +1,21 @@
-body {
-    background-color: $colorPrincipal;
-}
-
-.nav-link {
-    font-family: $fuenteUnica;
-    color: $colorSecundario;
+.navbar-toggler {
+    color: $colorToggler;
+    border-color: transparent;
+  }
+  
+  #cuerpo {
+    background-color: $colorGeneral;
+  }
+  
+  .navbar.navbar-expand-md.text-center.border-1.border-bottom.border-light {
+    background-color: $headerBackground;
+  }
+  
+  .nav-link {
+    font-family: $fuenteGeneral;
+    color: $colorToggler;
     &:hover {
-        color: $colorHover;
-        transition: all 0.5s;
+      color: $colorHover;
+      transition: $transiciones;
     }
-}
+  }

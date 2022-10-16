@@ -1,0 +1,19 @@
+.card {
+    background-color: transparent;
+    border: 0px;
+  }
+  
+  .btn.btn-primary {
+    border-radius: 5px;
+    border-bottom:groove;
+    border-color:$colorToggler;
+    background-color: $colorHover;
+    font-family: $fuenteGeneral;
+    color: $colorGralSecundario;
+    &:hover {
+      background-color: $colorToggler;
+      border-color: $colorHover;
+      color: $colorGeneral;
+      transform: $transformacionGeneral;
+    }
+  }

@@ -1,0 +1,33 @@
+h4 {
+    font-family: $fuenteGeneral;
+    color: $colorGralSecundario;
+  }
+  
+  .form-select {
+    font-family: $fuenteGeneral;
+  }
+  
+  .form-label {
+    font-family: $fuenteGeneral;
+  }
+  
+  .form-check-label {
+    color: $colorGralSecundario;
+    font-weight: normal;
+    margin-left: 5px;
+  }
+  
+  .botonForm {
+    border-radius: 5px;
+    border-bottom:groove;
+    border-color: $colorToggler;
+    background-color: $colorHover;
+    font-family: $fuenteGeneral;
+    color: $colorGralSecundario;
+    &:hover {
+      background-color: $colorToggler;
+      border-color: $colorHover;
+      color: $colorGeneral;
+      transform: $transformacionGeneral;
+    }
+  }

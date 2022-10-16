@@ -1,20 +1,46 @@
-h6 {
-    font-family: $fuenteUnica;
-    color: $colorSecundario;
-}
-
-.redes {
-    font-family: $fuenteUnica;
-    color:$colorSecundario;
-    .text-reset {
-        text-decoration: none;
-    }
+.redesSociales {
+    font-family: $fuenteGeneral;
+    color: $colorGralSecundario;
+    font-weight: $fuenteClase;
+  }
+  
+  .fotoFooter:hover {
+    transform: scale(1.3);
+    transition: $transiciones;
+  }
+  
+  h5 {
+    font-family: $fuenteGeneral;
+    color: $colorToggler;
+    font-weight: $fuenteClase;
+  }
+  
+  .mb-30.footer-desc {
+    font-family: $fuenteGeneral;
+    color: $colorGralSecundario;
+    font-weight: $fuenteClase;
+  }
+  
+  .link-footer {
+    text-decoration: none;
+    color: $colorToggler;
     &:hover {
-        color: $colorHover;
+      font-size: 17px;
     }
-}
-
-.datos {
-    font-family: $fuenteUnica;
-    color: $colorSecundario;
-}
+  }
+  
+  
+  .infoC {
+    color: $colorGralSecundario;
+    font-family: $fuenteGeneral;
+    font-weight: $fuenteClase;
+  }
+  
+  .accordion-header {
+    color: $colorGralSecundario;
+  }
+  
+  .container.text-center.p-4 {
+    background-color: $colorGralSecundario;
+    color: $colorGeneral;
+  }
